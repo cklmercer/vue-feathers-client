@@ -1,1 +1,1 @@
-# vue-feathers-boiler
+# vue-feathers-client
