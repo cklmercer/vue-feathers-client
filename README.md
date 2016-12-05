@@ -39,7 +39,8 @@ To learn more about `vue-feathers-services`, check it out on [github](https://gi
 
 ## Build Process
 To build your project run the gulp command. If you haven't already installed gulp,
-do so globally with the following command. _(You might need to use `sudo`)_
+do so globally with the following command. _(You might need to use `sudo` to install globally.)_
+
 ```
 $ npm install -g gulp
 ```
@@ -57,21 +58,13 @@ you can use the `gulp watch` command.
 $ gulp watch
 ```
 
-`browser-sync` has already been installed for you, all you need to do is add a single
-line of configuration to your `gulpfile.js` file and it'll automatically refresh
-the page for you after recompiling.
+This project uses [laravel-elixir](https://laravel.com/docs/5.3/elixir) to build
+and compile assets. I know this may seem odd at first, but give it a chance and
+I'm sure you'll love it just as much as I do.
 
-For more information on using `browser-sync` checkout [laravel-elixir-browsersync-official](https://github.com/JeffreyWay/laravel-elixir-browsersync-official).
-
-This project uses [laravel-elixir](https://github.com/laravel/elixir) to build
-and compile assets. `laravel-elixir` is part of the official [Laravel](https://laravel.com)
-namespace, but despite that fact.. it's still very useful for standalone projects.
-
-This project doesn't actually have any Laravel/PHP dependencies. We're strictly
-using `laravel-elixir` to handle our build process.
-
-I know this may seem odd at first, but give it a chance and I'm sure you'll be
-just as thrilled about it as I am.
+*Disclaimer: Even though `laravel-elixir` is part of the official Laravel namespace,
+it doesn't actually have any dependencies on the Laravel core or any PHP files.
+It, in fact, works fine by itself and removes the need for huge configuration files.*
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
