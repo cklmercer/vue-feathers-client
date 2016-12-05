@@ -35,7 +35,7 @@ To learn more about `vue-events`, check it out on [github](https://github.com/ck
 This project uses [vue-feathers-services](https://github.com/cklmercer/vue-feathers-services)
 to interact with your [FeathersJS](https://github.com/feathersjs/feathers) API.
 
-To learn more about `vue-feathers-services`, check it out on [github](https://github.com/cklmercer/vue-featehrs-services).
+To learn more about `vue-feathers-services`, check it out on [github](https://github.com/cklmercer/vue-feathers-services).
 
 ## Build Process
 To build your project run the gulp command. If you haven't already installed gulp,
