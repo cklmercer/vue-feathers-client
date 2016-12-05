@@ -33,5 +33,16 @@ to interact with your [FeathersJS](https://github.com/feathersjs/feathers) API.
 
 To learn more about `vue-feathers-services`, check it out on [github](https://github.com/cklmercer/vue-featehrs-services).
 
+## Build Process
+This project uses [laravel-elixir](https://github.com/laravel/elixir) to build
+and compile assets. `laravel-elixir` is part of the official [Laravel](https://laravel.com)
+namespace, but despite that fact.. it's still very useful for standalone projects.
+
+This project doesn't actually have any Laravel/PHP dependencies. We're strictly
+using `laravel-elixir` to handle our build process.
+
+I know this may seem odd at first, but give it a chance and I'm sure you'll be
+just as thrilled about it as I am.
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)
