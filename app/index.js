@@ -9,7 +9,7 @@ import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import { sync } from 'vuex-router-sync'
 
-// Install vue plugins.
+// Install VueJS plugins.
 Vue.use(Vuex)
 Vue.use(VueEvents)
 Vue.use(VueRouter)

@@ -5935,9 +5935,9 @@ vuex:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-2.0.0.tgz#26befa44de220f009e432d1027487bff29571cee"
 
-vuex-router-sync:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/vuex-router-sync/-/vuex-router-sync-2.1.1.tgz#604da1346dc0668140ee552d54ceab067711142e"
+vuex-router-sync@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vuex-router-sync/-/vuex-router-sync-3.0.0.tgz#3b632baa86cc55192ab408b8d52e6490380df3d7"
 
 watchpack@^0.2.1:
   version "0.2.9"
